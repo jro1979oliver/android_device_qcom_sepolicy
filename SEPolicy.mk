@@ -1,5 +1,5 @@
 # Board specific SELinux policy variable definitions
-SEPOLICY_PATH:= device/qcom/sepolicy-legacy-um
+SEPOLICY_PATH:= device/qcom/sepolicy-legacy-3.18
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR := \
     $(BOARD_PLAT_PUBLIC_SEPOLICY_DIR) \
     $(SEPOLICY_PATH)/generic/public \
